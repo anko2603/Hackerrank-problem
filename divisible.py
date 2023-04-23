@@ -5,16 +5,6 @@ import random
 import re
 import sys
 
-#
-# Complete the 'divisibleSumPairs' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts following parameters:
-#  1. INTEGER n
-#  2. INTEGER k
-#  3. INTEGER_ARRAY ar
-#
-
 def divisibleSumPairs(n, k, ar):
     # Write your code here
     count = 0
@@ -24,7 +14,7 @@ def divisibleSumPairs(n, k, ar):
                 count +=1
     return count
 if __name__ == '__main__':
-    output_path = os.environ.get('OUTPUT_PATH', '/home/ankita/Desktop/Hackerrank-problem/output_file')
+    output_path = os.environ.get('OUTPUT_PATH', 'output.text')
     fptr = open(output_path, 'w')
 
 
