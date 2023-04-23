@@ -9,7 +9,7 @@ def flippingBits(n):
     # Write your code here
    return 2**32 + ~n
 if __name__ == '__main__':
-    output_path = os.environ.get('OUTPUT_PATH', '/home/ankita/Desktop/Hackerrank-problem/output_file')
+    output_path = os.environ.get('OUTPUT_PATH', 'output.text')
     fptr = open(output_path, 'w')
 
     q = int(input().strip())
