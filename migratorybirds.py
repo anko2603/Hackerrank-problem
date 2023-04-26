@@ -1,4 +1,5 @@
-#Given an array of bird sightings where every element represents a bird type id, determine the id of the most frequently sighted type. If more than 1 type has been spotted that maximum amount, return the smallest of their ids.
+#Given an array of bird sightings where every element represents a bird type id, determine the id of the most frequently sighted type.
+#If more than 1 type has been spotted that maximum amount, return the smallest of their ids.
 import math
 import os
 import random
@@ -12,7 +13,7 @@ def migratoryBirds(arr):
     return l.index(max(l))
 
 if __name__ == '__main__':
-    output_path = os.environ.get('OUTPUT_PATH', '/home/ankita/Desktop/Hackerrank-problem/output_file')
+    output_path = os.environ.get('OUTPUT_PATH', 'output.text')
     fptr = open(output_path, 'w')
 
     arr_count = int(input().strip())
