@@ -1,4 +1,5 @@
-#There is a large pile of socks that must be paired by color. Given an array of integers representing the color of each sock, determine how many pairs of socks with matching colors there are.
+#There is a large pile of socks that must be paired by color. Given an array of integers representing the color of each sock, 
+#determine how many pairs of socks with matching colors there are.
 import math
 import os
 import random
@@ -16,7 +17,7 @@ def sockMerchant(n, ar):
         count+=d[i]//2
     return count
 if __name__ == '__main__':
-    output_path = os.environ.get('OUTPUT_PATH', '/home/ankita/Desktop/Hackerrank-problem/output_file')
+    output_path = os.environ.get('OUTPUT_PATH', 'output.text')
     fptr = open(output_path, 'w')
     n = int(input().strip())
 
